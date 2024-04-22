@@ -1,41 +1,126 @@
 @import url('https://fonts.cdnfonts.com/css/bicubik');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Bicubik', sans-serif;
+}
 body{
-    background-color: #0D0521;
-    
+    background-color: #19202C;
 }
 header{
-    top: 100%;
-    background-color: #0D0521;
+    align-items: center;
     color: #ffff;
     display: flex;
-    width: 100%;
-    height: 75px;
-    margin: -0.5%;
+    justify-content: space-between; 
+    padding: 1rem;
+    height: 125px;
 }
-header h1{
-    font-family: 'Bicubik', sans-serif;
-    font-size: 32px;
+.logo{
+    max-width: 200px;
 }
-.barraInicio {
-    background-color: #0D0521;
-    flex-direction: row-reverse;
-    margin-left: auto;
-}
-.barraInicio li{
-    display: inline-block;
-    align-items: center;
 
-}
-.barraInicio a{
+.nav-list{
+    list-style-type: none;
     display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-list li a{
     text-decoration: none;
     color: #fff;
-    margin: 10px;
-    
 }
 
-.barraInicio span{
+.nav-list span { 
     font-size: 12px;
-    font-family: 'Bicubik', sans-serif;
+    color: #79FFA0 ;
+
 }
 
+.open, .close{
+    display: none;
+}
+
+/* mobile and table */
+@media  screen and (min-width: 600px) and (max-width: 990px) {
+    .nav{
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 1rem;
+        background: #8E44AD;
+    }
+    /* .open, .close{
+        display: block;
+        border: none;
+        font-size: 2.25rem;
+        background-color: transparent;
+        cursor: pointer;
+        color: #d645fa;
+    }  */
+    .nav-list {         
+        /* display: none; */
+      flex-direction: column;
+        align-items: start;
+        bottom: 100%;
+        background: #8E44AD;
+        
+    }
+    .nav-list  li a span{
+        background: #8E44AD;
+    }
+    .close{
+        display: block;
+        margin-top: 17rem;
+        margin-left: 5rem;
+        color: #79FFA0;
+        background: #8E44AD;
+        border: none;
+        font-size: 1.5rem;
+        align-self: flex-end;
+    }
+} 
+
+@media screen and (max-width: 600px){
+    .nav {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            padding: 1rem;
+            background: #8E44AD;
+    }
+    
+        /* .open, .close{
+            display: block;
+            border: none;
+            font-size: 2.25rem;
+            background-color: transparent;
+            cursor: pointer;
+            color: #d645fa;
+        }  */
+    .nav-list {
+            /* display: none; */
+            flex-direction: column;
+            align-items: start;
+            bottom: 100%;
+            background: #8E44AD;
+    
+    }
+    
+    .nav-list li a span {
+        background: #8E44AD;
+    }
+    
+    .close {
+        display: block;
+        margin-top: 17rem;
+        margin-left: 5rem;
+        color: #79FFA0;
+        background: #8E44AD;
+        border: none;
+        font-size: 1.5rem;
+        align-self: flex-end;
+    }
+}
