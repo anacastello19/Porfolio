@@ -1,0 +1,29 @@
+h1{
+    color: aliceblue;
+    margin-top: 70px;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    text-shadow: 0px 25px 15px #bf94d1;
+}
+section{
+    display: flex;
+    width: 89%;
+    height: 90% auto;
+    margin: 2px;
+}
+
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: contain;
+    opacity: .8;
+    transition: .5s ease;
+    gap: 1px;
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 150px;
+    opacity: .8;
+    filter: contrast(120%);
+}

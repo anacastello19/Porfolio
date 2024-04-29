@@ -6,7 +6,7 @@
     font-family: 'Bicubik', sans-serif;
 }
 body{
-    background-color: #19202C;
+    background-color: #0D0521;
 }
 header{
     align-items: center;
@@ -16,6 +16,7 @@ header{
     padding: 1rem;
     height: 125px;
 }
+
 .logo{
     max-width: 200px;
 }
