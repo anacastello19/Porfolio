@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.cdnfonts.com/css/bicubik" rel="stylesheet">
-    <link rel="stylesheet" href="css/formacion.css">
+    <link rel="stylesheet" href="css/sobremi&formacion.css">
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
@@ -21,8 +21,8 @@
     <!--Encabezado-->
     <header>
         <img src="img/logo.jpeg" alt="logo" class="logo">
-        <nav class="nav">
-            <button class="open"><i class="bi bi-list"></i></button>
+        <button class="open" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
             <ul class="nav-list">
                 <li><a href="sobreMi.html"><span>Sobre Mi</span></a></li>
                 <li><a href="skills.html"><span>Skills</span></a></li>
@@ -31,15 +31,19 @@
                 <li><a href="proyectos.html"><span>Mis Proyectos</span> </a></li>
                 <li><a href="contacto.html"><span>Contacto</span></a></li>
             </ul>
-            <button class="close"><i class="bi bi-x-circle-fill"></i></button>
+            <button class="close" id="cerrar"><i class="bi bi-x-circle-fill"></i></button>
         </nav>
     </header>
 
     <!--Cuerpo-->
     <main>
-        <h1>Formacion academica</h1>
-        <img src="img/formacion.png" alt="Formación académica" class="formacion">
+        <h1 class="menu">Formacion academica</h1>
+        <section id="section">
+            <img src="img/formacion.png" alt="Formación académica" class="formacion">
+        </section>
+        
     </main>
+    <script src="main.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,17 @@
+.sobreMi{
+    color: #fff;
+    display: block;
+    margin: 70px
+    
+}
+#section {
+    width: 75vw;
+    max-width: 1000ox;
+    min-width: 320px;
+    margin: auto;
+
+}
+
+.formacion {
+    width: 100%;
+}

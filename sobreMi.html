@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/sobremi.css">
+    <link rel="stylesheet" href="css/sobremi&formacion.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.cdnfonts.com/css/bicubik" rel="stylesheet">
@@ -14,13 +14,14 @@
         rel="stylesheet">
     <title>Sobre Mi</title>
     <link rel="icom" href="img/logo.jpeg" type="image/icom">
+    <link rel="stylesheet" href="main.js">
 </head>
 <body>
     <!--Encabezado-->
     <header>
         <img src="img/logo.jpeg" alt="logo" class="logo">
-        <nav class="nav">
-            <button class="open"><i class="bi bi-list"></i></button>
+        <button class="open" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
             <ul class="nav-list">
                 <li><a href="sobreMi.html"><span>Sobre Mi</span></a></li>
                 <li><a href="skills.html"><span>Skills</span></a></li>
@@ -29,14 +30,14 @@
                 <li><a href="proyectos.html"><span>Mis Proyectos</span> </a></li>
                 <li><a href="contacto.html"><span>Contacto</span></a></li>
             </ul>
-            <button class="close"><i class="bi bi-x-circle-fill"></i></button>
+            <button class="close" id="cerrar"><i class="bi bi-x-circle-fill"></i></button>
         </nav>
     </header>
 
     <!--Cuerpo-->
     <main>
-        <section class="sobreMi">
-            <h1>Sobre Mi</h1>
+        <h1 class="menu">Sobre Mi</h1>
+        <section class="sobreMi" id="section">
             <p>
                 “Hola, soy Ana y esta es mi página de portafolio donde les contare un poco sobre mi.
                 Soy una persona extrovertida y muy cariñosa con las personas cercanas a mi.
@@ -49,5 +50,6 @@
             </p>
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>

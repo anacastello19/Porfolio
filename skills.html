@@ -15,14 +15,15 @@
         rel="stylesheet">
     <title>Skills</title>
     <link rel="icom" href="img/logo.jpeg" type="image/icom">
+    <link rel="stylesheet" href="main.js">
 </head>
 
 <body>
     <!--Encabezado-->
-    <header>
+    <header id="header">
         <img src="img/logo.jpeg" alt="logo" class="logo">
-        <nav class="nav">
-            <button class="open"><i class="bi bi-list"></i></button>
+        <button class="open" id="abrir"><i class="bi bi-list"></i></button>
+        <nav class="nav" id="nav">
             <ul class="nav-list">
                 <li><a href="sobreMi.html"><span>Sobre Mi</span></a></li>
                 <li><a href="skills.html"><span>Skills</span></a></li>
@@ -31,14 +32,14 @@
                 <li><a href="proyectos.html"><span>Mis Proyectos</span> </a></li>
                 <li><a href="contacto.html"><span>Contacto</span></a></li>
             </ul>
-            <button class="close"><i class="bi bi-x-circle-fill"></i></button>
+            <button class="close" id="cerrar"><i class="bi bi-x-circle-fill"></i></button>
         </nav>
     </header>
 
     <!--Cuerpo-->
     <main>
-        <h1>Skills</h1>
-        <section>
+        <h1 class="menu">Skills</h1>
+        <section id="section">
             <img src="img/python.png" alt="python">
             <img src="img/javaScript.png" alt="js">
             <img src="img/gt.png" alt="git">
@@ -46,6 +47,7 @@
             <img src="img/css.png" alt="CSS">
         </section>
     </main>
+    <script src="main.js"></script>
 </body>
 
 </html>
