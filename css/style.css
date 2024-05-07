@@ -13,6 +13,7 @@ body{
     flex-direction: column;
     min-height: 100%;
     background-color: #0D0521;
+    
 }
 header{
     align-items: center;
@@ -21,6 +22,7 @@ header{
     justify-content: space-between; 
     padding: 1rem;
     height: 125px;
+    background-image: url('fondocyber.jpg');
 }
 
 
@@ -46,6 +48,9 @@ header{
 .nav-list li a{
     text-decoration: none;
     color: #fff;
+    background-color: ;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 .nav-list span { 
@@ -63,10 +68,11 @@ header{
     margin-top: auto;
     width: 100%;
     text-align: center;
-    background-color: #e5a4f6;
+    background-image: url(fondo-futurista.jpg);
 }
 .footername{
     margin-top: 10px;
+    color: #d39dea;
 }
 .contacto{
     display: inline-flex;
@@ -76,7 +82,10 @@ header{
 }
 .footer img{
     margin: 10px 10px 6px 10px;
-    height: 30px;
+    height: 40px;
+    background-color: #d39dea;
+    padding: 1px;
+    border-radius: 10px;
 }
 
 /* table */
