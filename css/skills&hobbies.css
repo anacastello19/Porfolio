@@ -34,7 +34,7 @@
 @media screen and (max-width: 900px){
     #section{
         align-items: center;
-        width: 10vw;
+        width: 5vw;
         flex-direction: column;
         /* margin-left: 50px; */
     }
@@ -45,7 +45,8 @@
         cursor: crosshair;
         width: 90%;
         opacity: .8;
-        filter: contrast(120%);
-        box-shadow: 0 0 100vmax rgba(118, 49, 124, 0.5);
+        filter: contrast(130%);
+        margin: 15px;
+        box-shadow: 0px 0px 15px 15px rgba(118, 49, 124, 0.5);
     }
 }
