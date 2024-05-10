@@ -23,26 +23,27 @@
     justify-content: center;
 }  
 
-section img:hover{
+#section img:hover{
     cursor: crosshair;
-    width: 300px;
+    width: 240px;
     opacity: .80;
     filter: contrast(120%);
     box-shadow:  0 0 100vmax rgba(118, 49, 124, 0.5);
 }
 
 @media screen and (max-width: 900px){
-    section{
+    #section{
+        align-items: center;
         width: 10vw;
         flex-direction: column;
         /* margin-left: 50px; */
     }
-    section img{
-        width: 50%;
+    #section img{
+        width: 80%;
     } 
-    section img:hover {
+    #section img:hover {
         cursor: crosshair;
-        width: 300px;
+        width: 90%;
         opacity: .8;
         filter: contrast(120%);
         box-shadow: 0 0 100vmax rgba(118, 49, 124, 0.5);
