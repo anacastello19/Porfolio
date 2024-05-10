@@ -1,0 +1,43 @@
+.menu{
+    margin-bottom: 5vw;
+}
+.nameProyectos{
+    color: #d39dea;
+    font-size: 2vw;
+    margin: 15px;
+}
+p{
+    color: #fff;
+    margin: 15px;
+    width: 45vw;
+    font-style:inherit;
+    font-size: 1vw;
+}
+#section{
+    display: flex;
+    width: 90%;
+    height: auto;
+    margin: 5%;
+}
+.div{
+    display: block;
+    margin-left: 25px;
+    text-align: start;
+}
+.expimg{
+    width: 35vw;
+    border-radius: 15px ;
+    box-shadow: 0px 0px 20px 10px #d39dea;
+    margin-bottom: auto;
+    margin-left: 5vw;
+}
+
+.enlaces{
+    text-decoration: none;
+    color: #000;
+    background: #d39dea;
+    border-radius: 15px;
+    padding: 7px;
+    margin: 5px;
+    font-size: 1vw;
+}
