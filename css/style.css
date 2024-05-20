@@ -117,10 +117,11 @@ header{
         position: sticky;
         display: block;
         border: none;
-        font-size: 2.25rem;
+        font-size: 3.15rem ;
         background-color: transparent;
         cursor: pointer;
-        color: #d645fa;
+        color: #92feb1;
+        
     } 
     .nav-list {         
         /* display: none; */
