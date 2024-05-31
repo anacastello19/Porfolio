@@ -1,7 +1,8 @@
 const nav= document.querySelector('#nav');
 const abrir= document.querySelector('#abrir');
 const cerrar= document.querySelector('#cerrar');
-const section= document.querySelector('#section');
+const section= document.querySelectorAll('#section');
+
 
 abrir.addEventListener('click',() =>{
     nav.classList.add("visible");
@@ -10,7 +11,7 @@ abrir.addEventListener('click',() =>{
 
 cerrar.addEventListener('click',() =>{
     nav.classList.remove("visible");
-    document.getElementById("section").style.display="flex";
+    document.getElementById("section").style.display="block";
 })
 
 // abrir.addEventListener("scroll", function(){
